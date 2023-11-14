@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-int kvadratni_korijen(int a, int b)
+double kvadratni_korijen(int a, int b)
 {
     return sqrt(a,b);
 }
@@ -16,11 +16,27 @@ int mnozenje()
     scanf("%d", &b);
     return a * b;
 }
+
+
+double dijeljenjeDvaBroja (double a, double b)
+{
+    if (b==0)
+        return;
+    else
+        return a/b;
+}
+
 int main()
 {
-
-    printf("Hello world!\n");
+printf("Hello world!\n");
     printf("Prozivod dva broja: %d", mnozenje());
+
+    double a, b;
+
+    scanf("%lf %lf", &a, &b);
+
+    printf("Kolicnik je: %lf", dijeljenjeDvaBroja(a,b));
+
 
     printf("%d", kvadratni_korijen(2, 2));
 
