@@ -2,13 +2,14 @@
 #include <stdlib.h>
 #include <math.h>
 
-int kvadratni_korijen(int a, int b)
+float kvadratni_korijen(int a)
 {
-    return sqrt(a,b);
+    return sqrt(a);
 }
 
 int main()
 {
-    printf("%d", kvadratni_korijen(2, 2));
+    printf("%lf", kvadratni_korijen(2));
     return 0;
 }
+
