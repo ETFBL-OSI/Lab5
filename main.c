@@ -1,17 +1,24 @@
+
 #include<stdio.h>
 int oduzimanje_prvih_n_brojeva(int n)
+float mnozenjeNBrojeva(int n,float *niz)
 {
-    if (n < 0)return 0;
-    int razlika= 0;
-    for (int i = 0; i <= n; i++)
-        razlika -= i;
-    return razlika;
+    float rez=1;
+   for(int i=0;i<n;i++)
+    {
+        rez=rez*niz[i];
+    }
+    printf("Rezultat:%.2f",rez);
 }
 int main()
 {
     int n;
-    scanf("%d", &n);
-    int ispis = oduzimanje_prvih_n_brojeva(n);
-    printf("%d", ispis);
-    return 0;
-}
+    printf("Unesite koliko brojeva zelite da pomnozite:");
+    scanf("%d",&n);
+    float* niz=(float*)malloc(sizeof(float)*n);
+    for(int i=0;i<n;i++)
+        {
+            printf("\nUnesite %d. broj:",i+1);
+            scanf("%f",&niz[i]);
+        }
+   
