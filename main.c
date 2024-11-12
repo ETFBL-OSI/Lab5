@@ -1,18 +1,17 @@
-#include <stdio.h>
-
-double dijeljenjeDvaBroja(double a, double b)
+#include<stdio.h>
+int oduzimanje_prvih_n_brojeva(int n)
 {
-    if(b==0)
-    {
-        printf("Greska!Dijeljenje sa 0.");
-        return 0;
-    }
-        printf("%lf",a/b);
-    return a/b;
+    if (n < 0)return 0;
+    int razlika= 0;
+    for (int i = 0; i <= n; i++)
+        razlika -= i;
+    return razlika;
 }
-
 int main()
 {
-    dijeljenjeDvaBroja(7,5);
+    int n;
+    scanf("%d", &n);
+    int ispis = oduzimanje_prvih_n_brojeva(n);
+    printf("%d", ispis);
     return 0;
 }
