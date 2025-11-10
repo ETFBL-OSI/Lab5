@@ -11,3 +11,12 @@ void sum_of_two() {
 
     printf("a + b = %lf", a + b);
 }
+
+void kvadratnikorijen()
+{
+    double a,korijen;
+    printf("a=");
+    scanf ("%lf", &a);
+    korijen=sqrt(a);
+    printf ("Kvadratni korijen broja a je: %lf", korijen);
+}
