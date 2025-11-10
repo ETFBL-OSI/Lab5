@@ -119,10 +119,9 @@ void ostatak_pri_dijeljenju()
 }
 
 
-int stepenovanje(int br, int s)
+
 
 void stepenovanje()
-
 {
     int br, s;
     printf("Unesite broj: ");
