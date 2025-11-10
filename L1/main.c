@@ -17,16 +17,14 @@ void sum_of_two() {
     printf("a + b = %lf", a + b);
 }
 
-void razlika_dva_broja() {
-    double a, b;
+int faktorijel(int n)
+{
+    int i,rezultat=1;
 
-    printf("a = ");
-    scanf("%lf", &a);
-
-    printf("b = ");
-    scanf("%lf", &b);
-
-    printf("a - b = %lf", a - b);
+    for(i=1;i<=n;i++){
+        rezultat*=i;
+    }
+    return rezultat;
 }
 
 void Mnozenje_N_Brojeva() {
