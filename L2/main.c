@@ -30,15 +30,8 @@ int sabiranje_brojeva(){
     return a+b;
 }
 
-<<<<<<< HEAD
 double dijeljenje2broja(double, double);
 
-=======
-=======
-
-<<<<<<< HEAD
-=======
->>>>>>> 3520fcf8134c95a5bd161374830f7cd0e66b0cc8
 int OduzimanjeDvaBroja()
 {
     int a=1, b=2;
