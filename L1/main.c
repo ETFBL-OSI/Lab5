@@ -70,11 +70,7 @@ void proizvod_2_broja()
     printf("a*b = %lf", a*b);
 }
 
-<<<<<<< HEAD
->>>>>>> 8025ca6327cb5f59cd24cf4ecd0e262fce83c22c
-=======
 int stepenovanje(int br, int s)
 {
     return pow(br, s);
 };
->>>>>>> 9f553f4116986d3f730973503d631319b23d2abd
