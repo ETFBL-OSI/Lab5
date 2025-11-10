@@ -1,7 +1,14 @@
 #include<stdio.h>
 
-void djeljenje(double a, double b)
+void djeljenje_dva_broja()
 {
+    double a, b;
+    printf("a = ");
+    scanf("%lf", &a);
+
+    printf("b = ");
+    scanf("%lf", &b);
+
     printf("%lf / %lf = %lf",a,b,a/b);
 }
 
@@ -96,3 +103,13 @@ void stepenovanje()
     scanf("%d", &s);
     printf("%d^%d = ", br, s, pow(br, s));
 };
+
+int oduzimanje()
+{
+    int a,b,razlika;
+    printf("Unesite dva broja:\n");
+    scanf("%d %d", &a, &b);
+    razlika = a - b;
+    printf("Razlika brojeva %d i %d je: %d.", a, b, razlika);
+}
+
