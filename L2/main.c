@@ -30,7 +30,7 @@ int sabiranje_brojeva(){
     return a+b;
 }
 
-
+double dijeljenje2broja(double, double);
 
 =======
 =======
