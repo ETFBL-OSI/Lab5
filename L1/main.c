@@ -61,15 +61,17 @@ void sabiranje_n_brojeva()
 
 }
 
-int faktorijel(int n)
+void faktorijel()
 {
+    int n;
     int i,rezultat=1;
-
+    printf("Za koji broj racunamo faktorijel: ");
+    scanf("%d", &n);
 
     for(i=1;i<=n;i++){
         rezultat*=i;
     }
-    return rezultat;
+    printf("%d! = %d", n, rezultat);
 }
 
 void mnozenjeNBrojeva() {
