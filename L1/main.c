@@ -1,7 +1,8 @@
 #include<stdio.h>
 
-void djeljenje()
+void djeljenje_dva_broja()
 {
+    double a, b;
     printf("a = ");
     scanf("%lf", &a);
 
