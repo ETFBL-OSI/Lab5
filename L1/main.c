@@ -23,3 +23,15 @@ void proizvod_2_broja()
     printf("a*b = %lf", a*b);
 }
 
+void ostatak_pri_dijeljenju()
+{
+    double a,b;
+    printf("a= ");
+    scanf("%lf", &a);
+
+    printf("b= ");
+    scanf("%lf",&b);
+    double r;
+    printf("a%b=%lf", a%b);
+}
+
