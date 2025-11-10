@@ -60,7 +60,7 @@ int faktorijel(int n)
     return rezultat;
 }
 
-void Mnozenje_N_Brojeva() {
+void mnozenjeNBrojeva() {
     int n;
     printf("Koliko brojeva zelite unijeti: ");
     scanf("%d", n);
@@ -87,7 +87,12 @@ void proizvod_2_broja()
 }
 
 
-int stepenovanje(int br, int s)
+void stepenovanje()
 {
-    return pow(br, s);
+    printf("Unesite broj: ");
+    scanf("%d", &br);
+
+    printf("Unesite stepen: ");
+    scanf("%d", &s);
+    printf("%d^%d = ", br, s, pow(br, s));
 };
