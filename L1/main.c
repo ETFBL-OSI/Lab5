@@ -18,6 +18,7 @@ void sum_of_two() {
 }
 
 
+
 void kvadratnikorijen()
 {
     double a,korijen;
@@ -30,13 +31,15 @@ void kvadratnikorijen()
 void razlika_dva_broja() {
     double a, b;
 
-    printf("a = ");
-    scanf("%lf", &a);
+int faktorijel(int n)
+{
+    int i,rezultat=1;
 
-    printf("b = ");
-    scanf("%lf", &b);
 
-    printf("a - b = %lf", a - b);
+    for(i=1;i<=n;i++){
+        rezultat*=i;
+    }
+    return rezultat;
 }
 
 void Mnozenje_N_Brojeva() {
@@ -65,4 +68,11 @@ void proizvod_2_broja()
     printf("a*b = %lf", a*b);
 }
 
+
+
+
+int stepenovanje(int br, int s)
+{
+    return pow(br, s);
+};
 
