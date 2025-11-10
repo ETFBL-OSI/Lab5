@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
- 
- int najmanji()
- {
-    int n;
-    int min = 99999;
-    
-    printf("Unesite vrijednost n:", &n);
-    int niz[n];
-
-    for(int i=0;i<n;i++)
-    {
-        printf("Unesite %d. broj: %d" , i , niz[i]);
+<<<<<<< HEAD
+    int sabiranjeNBrojeva() {
+    int suma = 0, a;
+    for (int i = 0; i < n; i++) {
+        scanf("%d", &a);
+        suma += a;
     }
+    return suma;
+}
+ 
+ int najmanji(int n, int *niz)
+ {
+    int min = 99999;
 
     for(int i=0,i<n;i++)
     {
@@ -30,21 +30,20 @@ int sabiranje_brojeva(){
     return a+b;
 }
 
+<<<<<<< HEAD
 double dijeljenje2broja(double, double);
 
 =======
 =======
 
 <<<<<<< HEAD
+=======
+>>>>>>> 3520fcf8134c95a5bd161374830f7cd0e66b0cc8
 int OduzimanjeDvaBroja()
 {
     int a=1, b=2;
     return b-a;
 }
-=======
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 int sumaKvadrata(int a, int b) {
     return a*a + b*b;
 }
@@ -56,31 +55,28 @@ int racunanjeFaktorijela(int n)
     return p;
 }
 
->>>>>>> 65151cd9818d5431cbaf3347d870662f38809812
 //najveci od n brojeva
 
-int max(int niz[n],int n){
-int max=niz[0];
-for(int i=0;i<n;i++){
-    if(niz[i]>max)
-        max=niz[i];
+int max() {
+    int niz[3];
+    int max = niz[0];
+    niz[0] = 2;
+    niz[1] = 3;
+    niz[2] = 9;
+    for (int i = 0; i < 3; i++) {
+        if (niz[i] > max)
+            max = niz[i];
+    }
+    return max;
 }
-return max;
-}
-<<<<<<< HEAD
->>>>>>> 7542a4cde6d1bd5a8ae456fb014e08516b4ff56f
-=======
-
 int main() {
     printf("Max (12, 17): %d", max(12. 17));
 
     return 0;
 }
->>>>>>> 65151cd9818d5431cbaf3347d870662f38809812
 double dijeljenje2broja(double x, double y)
 {
     double rez = 0.0;
     rez = x / y;
     return rez;
 }
->>>>>>> 3d6b9d47370cf43f363a2013570617b1c95d5dbe
