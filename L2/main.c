@@ -24,5 +24,4 @@ for(int i=0;i<n;i++){
 }
 return max;
 }
->>>>>>> 7542a4cde6d1bd5a8ae456fb014e08516b4ff56f
->>>>>>> bdf19a204cede1a1b93ee2d1c2063e661d383349
+
