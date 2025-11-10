@@ -103,6 +103,7 @@ void proizvod_2_broja()
 
 void stepenovanje()
 {
+    int br, s;
     printf("Unesite broj: ");
     scanf("%d", &br);
 
