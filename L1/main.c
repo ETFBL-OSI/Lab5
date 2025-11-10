@@ -24,9 +24,6 @@ void sum_of_two() {
     printf("a + b = %lf", a + b);
 }
 
-
-
-
 void kvadratnikorijen()
 {
     double a,korijen;
@@ -39,6 +36,14 @@ void kvadratnikorijen()
 void razlika_dva_broja() {
     double a, b;
 
+    printf("a = ");
+    scanf("%lf", &a);
+
+    printf("b = ");
+    scanf("%lf", &b);
+
+    printf("a - b = %lf", a - b);
+}
 
 void sabiranje_n_brojeva()
 {
@@ -113,3 +118,41 @@ int oduzimanje()
     printf("Razlika brojeva %d i %d je: %d.", a, b, razlika);
 }
 
+int main(void) {
+	printf("##########################\n");
+	printf("##    ETF Kalkulator    ##\n");
+	printf("##########################\n");
+	printf("\n");
+	printf("##########################\n");
+	printf("##  1. Saberi 2 broja   ##\n");
+	printf("##  2. Saberi N brojeva ##\n");
+	printf("##  3. Oduzmi 2 broja   ##\n");
+	printf("##  4. Oduzmi N brojeva ##\n");
+	printf("##  5. Mnozi 2 broja    ##\n");
+	printf("##  6. Mnozi N brojeva  ##\n");
+	printf("##  7. Dijeli 2 broja   ##\n");
+	printf("##  8. Faktorijel       ##\n");
+	printf("##  9. Korijen          ##\n");
+	printf("## 10. Stepen           ##\n");
+	printf("## 11. Ostatak          ##\n");
+	printf("## 12. Srednja vrije... ##\n");
+	printf("## 13. Najveci          ##\n");
+	printf("## 14. Najmanji         ##\n");
+	printf("## 15. Suma prvih N     ##\n");
+	printf("## 16. Suma kv. prvih N ##\n");
+	printf("## 17. Procenat         ##\n");
+	printf("##########################\n");
+	
+	int choice;
+	do {
+		printf("  > ");
+		scanf("%d", &choice);
+	} while (!(1 <= choice && choice <= 17));
+	
+	switch (choice) {
+		case 1: sum_of_two(); break;
+		case 2: sabiranje_n_brojeva(); break;
+		case 3: razlika_dva_broja(); break;
+		default: printf("Nije implementirano!"); break;
+	}
+}
