@@ -1,7 +1,14 @@
 #include<stdio.h>
 
-void djeljenje(double a, double b)
+void djeljenje_dva_broja()
 {
+    double a, b;
+    printf("a = ");
+    scanf("%lf", &a);
+
+    printf("b = ");
+    scanf("%lf", &b);
+
     printf("%lf / %lf = %lf",a,b,a/b);
 }
 
@@ -62,7 +69,7 @@ void faktorijel()
     printf("%d! = %d", n, rezultat);
 }
 
-void Mnozenje_N_Brojeva() {
+void mnozenjeNBrojeva() {
     int n;
     printf("Koliko brojeva zelite unijeti: ");
     scanf("%d", n);
@@ -89,7 +96,22 @@ void proizvod_2_broja()
 }
 
 
-int stepenovanje(int br, int s)
+void stepenovanje()
 {
-    return pow(br, s);
+    printf("Unesite broj: ");
+    scanf("%d", &br);
+
+    printf("Unesite stepen: ");
+    scanf("%d", &s);
+    printf("%d^%d = %d", br, s, pow(br, s));
 };
+
+int oduzimanje()
+{
+    int a,b,razlika;
+    printf("Unesite dva broja:\n");
+    scanf("%d %d", &a, &b);
+    razlika = a - b;
+    printf("Razlika brojeva %d i %d je: %d.", a, b, razlika);
+}
+
