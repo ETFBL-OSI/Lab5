@@ -45,6 +45,7 @@ void razlika_dva_broja() {
     printf("a - b = %lf", a - b);
 }
 
+
 void sabiranje_n_brojeva()
 {
     int n;
@@ -60,6 +61,9 @@ void sabiranje_n_brojeva()
 
 
 }
+
+
+int faktorijel(int n)
 
 void faktorijel()
 {
@@ -101,7 +105,24 @@ void proizvod_2_broja()
 }
 
 
+
+void ostatak_pri_dijeljenju()
+{
+    double a,b;
+    printf("a= ");
+    scanf("%lf", &a);
+
+    printf("b= ");
+    scanf("%lf",&b);
+    double r;
+    printf("a%b=%lf", a%b);
+}
+
+
+int stepenovanje(int br, int s)
+
 void stepenovanje()
+
 {
     int br, s;
     printf("Unesite broj: ");
@@ -111,6 +132,7 @@ void stepenovanje()
     scanf("%d", &s);
     printf("%d^%d = %d", br, s, pow(br, s));
 }
+
 
 int oduzimanje()
 {
