@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 #include <stdio.h>
 #include <stdlib.h>
-    int sabiranjeNbrojeva() {
+    int sabiranjeNBrojeva() {
     int suma = 0, a;
     for (int i = 0; i < n; i++) {
         scanf("%d", &a);
@@ -10,8 +9,10 @@
     return suma;
 }
 
-int sabiranje_brojeva(int a, int b){
-        return a+b;
+int sabiranje_brojeva(){
+    int a=2;
+    int b=3;
+    return a+b;
 }
 
 int OduzimanjeDvaBroja()
@@ -23,7 +24,7 @@ int sumaKvadrata(int a, int b) {
     return a*a + b*b;
 }
 int racunanjeFaktorijela(int n)
-{   
+{
     int p=n;
     for(int i=n-1; i>1; i--)
         p*=i;
