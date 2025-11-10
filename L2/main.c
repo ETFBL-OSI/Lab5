@@ -3,7 +3,8 @@
 #include <stdlib.h>
 
 int sabiranje_brojeva(){
-    int a,b;
+    int a=2;
+    int b=3;
     return a+b;
 }
 
