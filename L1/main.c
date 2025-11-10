@@ -104,7 +104,7 @@ void stepenovanje()
     printf("Unesite stepen: ");
     scanf("%d", &s);
     printf("%d^%d = %d", br, s, pow(br, s));
-};
+}
 
 int oduzimanje()
 {
