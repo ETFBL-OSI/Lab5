@@ -98,3 +98,13 @@ int stepenovanje(int br, int s)
 {
     return pow(br, s);
 };
+
+int oduzimanje()
+{
+    int a,b,razlika;
+    printf("Unesite dva broja:\n");
+    scanf("%d %d", &a, &b);
+    razlika = a - b;
+    printf("Razlika brojeva %d i %d je: %d.", a, b, razlika);
+}
+
