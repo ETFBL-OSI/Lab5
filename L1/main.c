@@ -19,6 +19,7 @@ void sum_of_two() {
 
 
 
+
 void kvadratnikorijen()
 {
     double a,korijen;
@@ -30,6 +31,23 @@ void kvadratnikorijen()
 
 void razlika_dva_broja() {
     double a, b;
+
+
+void sabiranje_n_brojeva()
+{
+    int n;
+    printf("Unesite broj n: ");
+    scanf("%d", &n);
+
+    int zbir=0;
+    for(int i=1;i<n;i++)
+    {
+        zbir = zbir + i;
+    }
+    printf("Zbir: %d", zbir);
+
+
+}
 
 int faktorijel(int n)
 {
@@ -69,10 +87,7 @@ void proizvod_2_broja()
 }
 
 
-
-
 int stepenovanje(int br, int s)
 {
     return pow(br, s);
 };
-
