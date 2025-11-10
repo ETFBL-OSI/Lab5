@@ -11,3 +11,19 @@ void razlika_dva_broja() {
 
     printf("a - b = %lf", a - b);
 }
+
+void sabiranje_n_brojeva()
+{
+    int n;
+    printf("Unesite broj n: ");
+    scanf("%d", &n);
+
+    int zbir=0;
+    for(int i=1;i<n;i++)
+    {
+        zbir = zbir + i;
+    }
+    printf("Zbir: %d", zbir);
+
+
+}
