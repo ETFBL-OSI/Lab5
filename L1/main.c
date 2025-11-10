@@ -1,7 +1,14 @@
 #include<stdio.h>
 
-void djeljenje(double a, double b)
+void djeljenje_dva_broja()
 {
+    double a, b;
+    printf("a = ");
+    scanf("%lf", &a);
+
+    printf("b = ");
+    scanf("%lf", &b);
+
     printf("%lf / %lf = %lf",a,b,a/b);
 }
 
@@ -18,6 +25,24 @@ void sum_of_two() {
 }
 
 
+<<<<<<< HEAD
+=======
+
+
+void kvadratnikorijen()
+{
+    double a,korijen;
+    printf("a=");
+    scanf ("%lf", &a);
+    korijen=sqrt(a);
+    printf ("Kvadratni korijen broja a je: %lf", korijen);
+}
+
+void razlika_dva_broja() {
+    double a, b;
+
+
+>>>>>>> 861be14e2493b40278629e69296dc2671e02cb06
 void sabiranje_n_brojeva()
 {
     int n;
@@ -34,17 +59,24 @@ void sabiranje_n_brojeva()
 
 }
 
+<<<<<<< HEAD
 int faktorijel(int n)
+=======
+void faktorijel()
+>>>>>>> 861be14e2493b40278629e69296dc2671e02cb06
 {
+    int n;
     int i,rezultat=1;
+    printf("Za koji broj racunamo faktorijel: ");
+    scanf("%d", &n);
 
     for(i=1;i<=n;i++){
         rezultat*=i;
     }
-    return rezultat;
+    printf("%d! = %d", n, rezultat);
 }
 
-void Mnozenje_N_Brojeva() {
+void mnozenjeNBrojeva() {
     int n;
     printf("Koliko brojeva zelite unijeti: ");
     scanf("%d", n);
@@ -71,6 +103,7 @@ void proizvod_2_broja()
 }
 
 
+<<<<<<< HEAD
 void ostatak_pri_dijeljenju()
 {
     double a,b;
@@ -85,7 +118,27 @@ void ostatak_pri_dijeljenju()
 
 
 int stepenovanje(int br, int s)
+=======
+void stepenovanje()
+>>>>>>> 861be14e2493b40278629e69296dc2671e02cb06
 {
-    return pow(br, s);
+    printf("Unesite broj: ");
+    scanf("%d", &br);
+
+    printf("Unesite stepen: ");
+    scanf("%d", &s);
+    printf("%d^%d = %d", br, s, pow(br, s));
 };
 
+<<<<<<< HEAD
+=======
+int oduzimanje()
+{
+    int a,b,razlika;
+    printf("Unesite dva broja:\n");
+    scanf("%d %d", &a, &b);
+    razlika = a - b;
+    printf("Razlika brojeva %d i %d je: %d.", a, b, razlika);
+}
+
+>>>>>>> 861be14e2493b40278629e69296dc2671e02cb06
