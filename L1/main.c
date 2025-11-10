@@ -1,6 +1,11 @@
-#include <stdio.h>
+#include<stdio.h>
 
-void razlika_dva_broja() {
+void djeljenje(double a, double b)
+{
+    printf("%lf / %lf = %lf",a,b,a/b);
+}
+
+void sum_of_two() {
     double a, b;
 
     printf("a = ");
@@ -9,9 +14,10 @@ void razlika_dva_broja() {
     printf("b = ");
     scanf("%lf", &b);
 
-    printf("a - b = %lf", a - b);
+    printf("a + b = %lf", a + b);
 }
 
+<<<<<<< HEAD
 void sabiranje_n_brojeva()
 {
     int n;
@@ -27,3 +33,41 @@ void sabiranje_n_brojeva()
 
 
 }
+=======
+int faktorijel(int n)
+{
+    int i,rezultat=1;
+
+    for(i=1;i<=n;i++){
+        rezultat*=i;
+    }
+    return rezultat;
+}
+
+void Mnozenje_N_Brojeva() {
+    int n;
+    printf("Koliko brojeva zelite unijeti: ");
+    scanf("%d", n);
+    double proizvod = 1;
+    double tren;
+    for (int i = 0; i < n; i++)
+    {
+        printf("Unesite broj: ");
+        scanf("%lf", tren);
+        proizvod *= tren;
+    }
+    printf("Proizvod unijetih = %lf", &proizvod);
+}
+
+void proizvod_2_broja()
+{
+    double a, b;
+    printf("a = ");
+    scanf("%lf", &a);
+
+    printf("b = ");
+    scanf("%lf", &b);
+    printf("a*b = %lf", a*b);
+}
+
+>>>>>>> 8025ca6327cb5f59cd24cf4ecd0e262fce83c22c
