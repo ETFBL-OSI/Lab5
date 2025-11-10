@@ -1,7 +1,13 @@
 #include<stdio.h>
 
-void djeljenje(double a, double b)
+void djeljenje()
 {
+    printf("a = ");
+    scanf("%lf", &a);
+
+    printf("b = ");
+    scanf("%lf", &b);
+
     printf("%lf / %lf = %lf",a,b,a/b);
 }
 
