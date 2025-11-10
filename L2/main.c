@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+#include <stdio.h>
+#include <stdlib.h>
  
  int najmanji()
  {
@@ -22,10 +23,6 @@
    return min;
 
  }
-=======
-
-#include <stdio.h>
-#include <stdlib.h>
 
 int sabiranje_brojeva(){
     int a=2;
