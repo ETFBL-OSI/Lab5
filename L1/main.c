@@ -1,10 +1,9 @@
-<<<<<<< HEAD
 #include<stdio.h>
+
 void djeljenje(double a, double b)
 {
     printf("%lf / %lf = %lf",a,b,a/b);
-=======
-#include <stdio.h>
+}
 
 void sum_of_two() {
     double a, b;
@@ -28,11 +27,7 @@ void razlika_dva_broja() {
     scanf("%lf", &b);
 
     printf("a - b = %lf", a - b);
-
-
-
 }
-
 
 void Mnozenje_N_Brojeva() {
     int n;
