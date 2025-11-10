@@ -25,8 +25,6 @@ void sum_of_two() {
 }
 
 
-<<<<<<< HEAD
-=======
 
 
 void kvadratnikorijen()
@@ -42,7 +40,7 @@ void razlika_dva_broja() {
     double a, b;
 
 
->>>>>>> 861be14e2493b40278629e69296dc2671e02cb06
+
 void sabiranje_n_brojeva()
 {
     int n;
@@ -59,11 +57,10 @@ void sabiranje_n_brojeva()
 
 }
 
-<<<<<<< HEAD
+
 int faktorijel(int n)
-=======
+
 void faktorijel()
->>>>>>> 861be14e2493b40278629e69296dc2671e02cb06
 {
     int n;
     int i,rezultat=1;
@@ -103,7 +100,7 @@ void proizvod_2_broja()
 }
 
 
-<<<<<<< HEAD
+
 void ostatak_pri_dijeljenju()
 {
     double a,b;
@@ -118,9 +115,9 @@ void ostatak_pri_dijeljenju()
 
 
 int stepenovanje(int br, int s)
-=======
+
 void stepenovanje()
->>>>>>> 861be14e2493b40278629e69296dc2671e02cb06
+
 {
     printf("Unesite broj: ");
     scanf("%d", &br);
@@ -130,8 +127,7 @@ void stepenovanje()
     printf("%d^%d = %d", br, s, pow(br, s));
 };
 
-<<<<<<< HEAD
-=======
+
 int oduzimanje()
 {
     int a,b,razlika;
@@ -141,4 +137,3 @@ int oduzimanje()
     printf("Razlika brojeva %d i %d je: %d.", a, b, razlika);
 }
 
->>>>>>> 861be14e2493b40278629e69296dc2671e02cb06
