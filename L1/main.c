@@ -11,3 +11,18 @@ void sum_of_two() {
 
     printf("a + b = %lf", a + b);
 }
+
+void Mnozenje_N_Brojeva() {
+    int n;
+    printf("Koliko brojeva zelite unijeti: ");
+    scanf("%d", n);
+    double proizvod = 1;
+    double tren;
+    for (int i = 0; i < n; i++)
+    {
+        printf("Unesite broj: ");
+        scanf("%lf", tren);
+        proizvod *= tren;
+    }
+    printf("Proizvod unijetih = %lf", &proizvod);
+}
