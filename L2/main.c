@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+
+
+=======
 #include <stdio.h>
 #include <stdlib.h>
 <<<<<<< HEAD
@@ -23,6 +27,7 @@
    return min;
 
  }
+>>>>>>> 303d17faa40a3dfc7df0cb1ea177bb5cbdab80fc
 
 int sabiranje_brojeva(){
     int a=2;
