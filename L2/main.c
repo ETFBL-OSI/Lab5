@@ -22,3 +22,8 @@ for(int i=0;i<n;i++){
 return max;
 }
 
+int main() {
+    printf("Max (12, 17): %d", max(12. 17));
+
+    return 0;
+}
