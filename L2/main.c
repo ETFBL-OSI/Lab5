@@ -1,3 +1,4 @@
+
 <<<<<<< HEAD
 int OduzimanjeDvaBroja()
 {
@@ -6,6 +7,11 @@ int OduzimanjeDvaBroja()
 }
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+int sumaKvadrata(int a, int b) {
+    return a*a + b*b;
+}
 int racunanjeFaktorijela(int n)
 {   
     int p=n;
@@ -13,7 +19,7 @@ int racunanjeFaktorijela(int n)
         p*=i;
     return p;
 }
-=======
+
 //najveci od n brojeva
 
 int max(int niz[n],int n){
