@@ -1,10 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 #include <stdio.h>
 #include <stdlib.h>
 
-int sabiranje_brojeva(int a, int b){
-        return a+b;
+int sabiranje_brojeva(){
+    int a,b;
+    return a+b;
 }
 
 
@@ -26,7 +26,7 @@ int sumaKvadrata(int a, int b) {
     return a*a + b*b;
 }
 int racunanjeFaktorijela(int n)
-{   
+{
     int p=n;
     for(int i=n-1; i>1; i--)
         p*=i;
