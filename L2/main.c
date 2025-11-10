@@ -1,5 +1,33 @@
+<<<<<<< HEAD
 
 
+=======
+#include <stdio.h>
+#include <stdlib.h>
+ 
+ int najmanji()
+ {
+    int n;
+    int min = 99999;
+    
+    printf("Unesite vrijednost n:", &n);
+    int niz[n];
+
+    for(int i=0;i<n;i++)
+    {
+        printf("Unesite %d. broj: %d" , i , niz[i]);
+    }
+
+    for(int i=0,i<n;i++)
+    {
+        if(niz[i]<min)
+        min = niz[i];
+    }
+
+   return min;
+
+ }
+>>>>>>> 303d17faa40a3dfc7df0cb1ea177bb5cbdab80fc
 
 int sabiranje_brojeva(){
     int a=2;
@@ -60,3 +88,4 @@ double dijeljenje2broja(double x, double y)
     rez = x / y;
     return rez;
 }
+>>>>>>> 3d6b9d47370cf43f363a2013570617b1c95d5dbe
