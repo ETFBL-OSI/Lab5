@@ -55,3 +55,7 @@ void proizvod_2_broja()
     printf("a*b = %lf", a*b);
 }
 
+int stepenovanje(int br, int s)
+{
+    return pow(br, s);
+};
