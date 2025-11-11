@@ -26,6 +26,7 @@ void najveci_broj(){
         if(br>max)max=br;
     }
     printf("Najveci broj je %d",max);
+}
 
 int zbirkvadratabrojeva()
 {
@@ -35,6 +36,7 @@ int zbirkvadratabrojeva()
     {
         s+=i*i;
     }
+}
 
 int korijen_broja()
 {
@@ -45,9 +47,7 @@ int korijen_broja()
     double rez;
     rez=sqrt(broj);
 
-
-#include <stdio.h>
-
+}
 int faktorijel()
 {
     int f=1;
@@ -56,7 +56,7 @@ int faktorijel()
         f*=i;
     }
     return f;
-
+}
 int mnozenje()
 {
     int a=5, b=3;
@@ -68,9 +68,7 @@ int mnozenje()
 double procenat()
 {
 	return (1.00 / 5.00) * 100.00;
-
-
-#include<stdio.h>
+}
 
 int oduzimanje_dva_broja()
 {
