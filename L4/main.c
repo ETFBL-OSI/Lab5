@@ -79,8 +79,6 @@ int oduzimanje_dva_broja()
 
 }
 
-#include <stdio.h>
-
 double srednjaVr(){
     int n;
     double br[n], zbir=0.0;
