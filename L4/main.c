@@ -56,7 +56,7 @@ int faktorijel()
     }
     return f;
 }
-int mnozenje()
+int mnozenje_dva_broja()
 {
     int a=5, b=3;
     int proizvod = a*b;
@@ -77,8 +77,6 @@ int oduzimanje_dva_broja()
     return m-n;
 
 }
-
-#include <stdio.h>
 
 double srednjaVr(){
     int n;
