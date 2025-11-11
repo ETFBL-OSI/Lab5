@@ -35,7 +35,9 @@ int zbirkvadratabrojeva()
     {
         s+=i*i;
     }
-}
+
+    return s;
+
 
 int korijen_broja()
 {
@@ -71,6 +73,26 @@ double procenat()
 
 int oduzimanje_dva_broja()
 {
+    int f=1;
+    for(int i=1; i<=5; i++)
+    {
+        f*=i;
+    }
+    return f;
+
+int mnozenje()
+{
+    int a=5, b=3;
+    int proizvod = a*b;
+
+    return proizvod;
+}
+
+double procenat()
+{
+    int a = 20;
+    int p = 5;
+    return (p / 100.00) * a;
     int n = 5;
     int m = 10;
     printf("\nm = %d, n = %d\nrazlika je %d",m,n,m-n);
