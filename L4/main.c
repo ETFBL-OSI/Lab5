@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int faktorijel()
+int oduzimanje_dva_broja()
 {
     int f=1;
     for(int i=1; i<=5; i++)
@@ -22,4 +22,8 @@ double procenat()
     int a = 20;
     int p = 5;
     return (p / 100.00) * a;
+    int n = 5;
+    int m = 10;
+    printf("\nm = %d, n = %d\nrazlika je %d",m,n,m-n);
+    return m-n;
 }
