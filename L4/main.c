@@ -12,16 +12,50 @@ double sabiranje_2_broja()
     return zbir;
 }
 =======
+=======
 
-double srednjaVr(){
-    int n;
-    double br[n], zbir=0.0;
-    scanf("%d", &n);
-    for(int i=0; i<n; i++) {
-        scanf("%lf", br[i]);
-        zbir+=br[i];
+double stpenovanje()
+{
+    double baza=3.0;
+    int eksponent=2;
+    double rezultat=1.0;
+    for(int i=0;i<eksponent;i++)
+    {
+        rezultat*=baza;
     }
+    return rezultat;
+
+#include <stdio.h>
+>>>>>>> 040148c3b544364cceb05125f9dfc23496f03563
+
+
+int sabiranje_n_brojeva()
+{
+	int suma=0,n;
+	printf("Koliko brojeva sabirate:");
+	scanf("%d", &n);
+	for (int i = 0; i < n; i++)
+	{
+		int broj;
+		printf("Unesite %d. broj:");
+		scanf("%d", &broj);
+		suma += broj;
+	}
+	return suma;
+}
+
+
+double srednjaVr() {
+    int n;
+    double br[n], zbir = 0.0;
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++) {
+        scanf("%lf", br[i]);
+        zbir += br[i];
+    }
+    return zbir / n;
     return zbir/n;
+
 }
 
 
@@ -64,7 +98,10 @@ int korijen_broja()
     return 0;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 040148c3b544364cceb05125f9dfc23496f03563
 int faktorijel()
 {
     int f=1;
@@ -129,3 +166,4 @@ double srednjaVr(){
     }
     return (double)zbir/n;
 }
+
