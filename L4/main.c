@@ -38,7 +38,7 @@ int zbirkvadratabrojeva()
 
     return s;
 
-
+}
 int korijen_broja()
 {
     double broj;
