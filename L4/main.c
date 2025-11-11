@@ -19,5 +19,7 @@ int mnozenje()
 
 double procenat()
 {
-	return (1.00 / 5.00) * 100.00;
+    int a = 20;
+    int p = 5;
+    return (p / 100.00) * a;
 }
