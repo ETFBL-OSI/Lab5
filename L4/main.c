@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include <stdio.h>
 
 double srednjaVr(){
@@ -10,7 +9,7 @@ double srednjaVr(){
         zbir+=br[i];
     }
     return zbir/n;
-=======
+}
 
 
 void najveci_broj(){
