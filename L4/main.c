@@ -1,18 +1,31 @@
 
+<<<<<<< HEAD
 #include <stdio.h>
 #include <math.h>
 double stpenovanje()
+=======
+double sabiranje_2_broja()
+>>>>>>> de31ae00d6aa80a454564d092d90eca350e2cb88
 {
-    double baza=3.0;
-    int eksponent=2;
-    double rezultat=1.0;
-    for(int i=0;i<eksponent;i++)
-    {
-        rezultat*=baza;
-    }
-    return rezultat;
+    double a,b;
+    printf("Unesi prvi broj: ");
+    scanf("%lf\n", a);
 
+    printf("Unesi drugi broj: ");
+    scanf("%lf\n", b);
 
+    double zbir=a+b;
+    return zbir;
+}
+=======
+=======
+
+<<<<<<< HEAD
+
+=======
+#include <stdio.h>
+>>>>>>> 040148c3b544364cceb05125f9dfc23496f03563
+>>>>>>> de31ae00d6aa80a454564d092d90eca350e2cb88
 
 
 int sabiranje_n_brojeva()
@@ -43,6 +56,18 @@ double srednjaVr() {
     return zbir/n;
 
 }
+double stpenovanje()
+{
+    double baza=3.0;
+    int eksponent=2;
+    double rezultat=1.0;
+    for(int i=0;i<eksponent;i++)
+    {
+        rezultat*=baza;
+    }
+    return rezultat;
+}
+
 
 
 void najveci_broj(){
@@ -62,16 +87,16 @@ void najveci_broj(){
 
 int zbirkvadratabrojeva()
 {
-    int n=10;
-    int s=0;
-    for(int i=1;i<=n;i++)
+    int n = 10;
+    int s = 0;
+    for (int i = 1; i <= n; i++)
     {
-        s+=i*i;
+        s += i * i;
     }
 
     return s;
 
-
+}
 int korijen_broja()
 {
     double broj;
@@ -80,9 +105,14 @@ int korijen_broja()
 
     double rez;
     rez=sqrt(broj);
-
+    printf("korijen broja je: %lf", korijen);
+    return 0;
 }
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 040148c3b544364cceb05125f9dfc23496f03563
 int faktorijel()
 {
     int f=1;
@@ -108,14 +138,18 @@ double procenat()
 
 int oduzimanje_dva_broja()
 {
-    int f=1;
-    for(int i=1; i<=5; i++)
+    int f = 1;
+    for (int i = 1; i <= 5; i++)
     {
-        f*=i;
+        f *= i;
     }
     return f;
+<<<<<<< HEAD
 
 
+=======
+}
+>>>>>>> de31ae00d6aa80a454564d092d90eca350e2cb88
 int mnozenje()
 {
     int a=5, b=3;
@@ -126,6 +160,8 @@ int mnozenje()
 
 double procenat()
 {
+	return (1.00 / 5.00) * 100.00;
+
     int a = 20;
     int p = 5;
     return (p / 100.00) * a;
