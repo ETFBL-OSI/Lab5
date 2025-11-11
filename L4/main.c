@@ -27,6 +27,7 @@ double srednjaVr() {
         zbir += br[i];
     }
     return zbir / n;
+    return zbir/n;
 }
 
 
