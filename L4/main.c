@@ -88,5 +88,5 @@ double srednjaVr(){
         scanf("%lf", br[i]);
         zbir+=br[i];
     }
-    return zbir/n;
+    return (double)zbir/n;
 }
