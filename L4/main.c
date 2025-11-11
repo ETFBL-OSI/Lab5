@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+#include <stdio.h>
+
+double srednjaVr(){
+    int n;
+    double br[n], zbir=0.0;
+    scanf("%d", &n);
+    for(int i=0; i<n; i++) {
+        scanf("%lf", br[i]);
+        zbir+=br[i];
+    }
+    return zbir/n;
+=======
 
 
 void najveci_broj(){
@@ -64,4 +77,17 @@ int oduzimanje_dva_broja()
     printf("\nm = %d, n = %d\nrazlika je %d",m,n,m-n);
     return m-n;
 
+}
+
+#include <stdio.h>
+
+double srednjaVr(){
+    int n;
+    double br[n], zbir=0.0;
+    scanf("%d", &n);
+    for(int i=0; i<n; i++) {
+        scanf("%lf", br[i]);
+        zbir+=br[i];
+    }
+    return zbir/n;
 }
