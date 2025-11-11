@@ -1,4 +1,5 @@
 
+
 double stpenovanje()
 {
     double baza=3.0;
@@ -9,6 +10,37 @@ double stpenovanje()
         rezultat*=baza;
     }
     return rezultat;
+
+#include <stdio.h>
+
+
+int sabiranje_n_brojeva()
+{
+	int suma=0,n;
+	printf("Koliko brojeva sabirate:");
+	scanf("%d", &n);
+	for (int i = 0; i < n; i++)
+	{
+		int broj;
+		printf("Unesite %d. broj:");
+		scanf("%d", &broj);
+		suma += broj;
+	}
+	return suma;
+}
+
+
+double srednjaVr() {
+    int n;
+    double br[n], zbir = 0.0;
+    scanf("%d", &n);
+    for (int i = 0; i < n; i++) {
+        scanf("%lf", br[i]);
+        zbir += br[i];
+    }
+    return zbir / n;
+    return zbir/n;
+
 }
 
 
@@ -25,6 +57,7 @@ void najveci_broj(){
         if(br>max)max=br;
     }
     printf("Najveci broj je %d",max);
+}
 
 int zbirkvadratabrojeva()
 {
@@ -35,6 +68,9 @@ int zbirkvadratabrojeva()
         s+=i*i;
     }
 
+    return s;
+
+
 int korijen_broja()
 {
     double broj;
@@ -44,10 +80,31 @@ int korijen_broja()
     double rez;
     rez=sqrt(broj);
 
-
-#include <stdio.h>
+}
 
 int faktorijel()
+{
+    int f=1;
+    for(int i=1; i<=5; i++)
+    {
+        f*=i;
+    }
+    return f;
+}
+int mnozenje_dva_broja()
+{
+    int a=5, b=3;
+    int proizvod = a*b;
+
+    return proizvod;
+}
+
+double procenat()
+{
+	return (1.00 / 5.00) * 100.00;
+}
+
+int oduzimanje_dva_broja()
 {
     int f=1;
     for(int i=1; i<=5; i++)
@@ -66,16 +123,24 @@ int mnozenje()
 
 double procenat()
 {
-	return (1.00 / 5.00) * 100.00;
-
-
-#include<stdio.h>
-
-int oduzimanje_dva_broja()
-{
+    int a = 20;
+    int p = 5;
+    return (p / 100.00) * a;
     int n = 5;
     int m = 10;
     printf("\nm = %d, n = %d\nrazlika je %d",m,n,m-n);
     return m-n;
 
 }
+
+double srednjaVr(){
+    int n;
+    double br[n], zbir=0.0;
+    scanf("%d", &n);
+    for(int i=0; i<n; i++) {
+        scanf("%lf", br[i]);
+        zbir+=br[i];
+    }
+    return (double)zbir/n;
+}
+
