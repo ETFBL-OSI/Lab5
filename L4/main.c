@@ -10,6 +10,7 @@ double stpenovanje()
         rezultat*=baza;
     }
     return rezultat;
+}
 
 #include <stdio.h>
 
