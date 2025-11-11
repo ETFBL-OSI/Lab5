@@ -8,7 +8,7 @@ int faktorijel()
         f*=i;
     }
     return f;
-
+}
 int mnozenje()
 {
     int a=5, b=3;
@@ -20,4 +20,12 @@ int mnozenje()
 double procenat()
 {
 	return (1.00 / 5.00) * 100.00;
+}
+
+int main()
+{
+    printf("%d\n",faktorijel());
+    printf("%d\n",mnozenje());
+    printf("%lf\n",procenat());
+    return 0;
 }
