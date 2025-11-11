@@ -1,14 +1,46 @@
+
+
+double stpenovanje()
+{
+    double baza=3.0;
+    int eksponent=2;
+    double rezultat=1.0;
+    for(int i=0;i<eksponent;i++)
+    {
+        rezultat*=baza;
+    }
+    return rezultat;
+
 #include <stdio.h>
 
-double srednjaVr(){
+
+int sabiranje_n_brojeva()
+{
+	int suma=0,n;
+	printf("Koliko brojeva sabirate:");
+	scanf("%d", &n);
+	for (int i = 0; i < n; i++)
+	{
+		int broj;
+		printf("Unesite %d. broj:");
+		scanf("%d", &broj);
+		suma += broj;
+	}
+	return suma;
+}
+
+
+double srednjaVr() {
     int n;
-    double br[n], zbir=0.0;
+    double br[n], zbir = 0.0;
     scanf("%d", &n);
-    for(int i=0; i<n; i++) {
+    for (int i = 0; i < n; i++) {
         scanf("%lf", br[i]);
-        zbir+=br[i];
+        zbir += br[i];
     }
+    return zbir / n;
     return zbir/n;
+
 }
 
 
@@ -49,6 +81,7 @@ int korijen_broja()
     rez=sqrt(broj);
 
 }
+
 int faktorijel()
 {
     int f=1;
@@ -58,7 +91,7 @@ int faktorijel()
     }
     return f;
 }
-int mnozenje()
+int mnozenje_dva_broja()
 {
     int a=5, b=3;
     int proizvod = a*b;
@@ -73,6 +106,26 @@ double procenat()
 
 int oduzimanje_dva_broja()
 {
+    int f=1;
+    for(int i=1; i<=5; i++)
+    {
+        f*=i;
+    }
+    return f;
+
+int mnozenje()
+{
+    int a=5, b=3;
+    int proizvod = a*b;
+
+    return proizvod;
+}
+
+double procenat()
+{
+    int a = 20;
+    int p = 5;
+    return (p / 100.00) * a;
     int n = 5;
     int m = 10;
     printf("\nm = %d, n = %d\nrazlika je %d",m,n,m-n);
@@ -90,3 +143,4 @@ double srednjaVr(){
     }
     return (double)zbir/n;
 }
+
