@@ -6,6 +6,8 @@ int zbirkvadratabrojeva()
     {
         s+=i*i;
     }
+    return s;
+}
 
 int korijen_broja()
 {
