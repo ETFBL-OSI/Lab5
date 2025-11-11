@@ -6,5 +6,37 @@ int zbirkvadratabrojeva()
     {
         s+=i*i;
     }
-    return s;
+
+int korijen_broja()
+{
+    double broj;
+    printf("unesite broj:");
+    scanf("%lf",&broj);
+
+    double rez;
+    rez=sqrt(broj);
+
+#include <stdio.h>
+
+int faktorijel()
+{
+    int f=1;
+    for(int i=1; i<=5; i++)
+    {
+        f*=i;
+    }
+    return f;
+
+int mnozenje()
+{
+    int a=5, b=3;
+    int proizvod = a*b;
+
+    return proizvod;
+}
+
+double procenat()
+{
+	return (1.00 / 5.00) * 100.00;
+
 }
