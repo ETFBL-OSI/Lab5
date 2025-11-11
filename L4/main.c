@@ -14,17 +14,6 @@ double sabiranje_2_broja()
 =======
 =======
 
-double stpenovanje()
-{
-    double baza=3.0;
-    int eksponent=2;
-    double rezultat=1.0;
-    for(int i=0;i<eksponent;i++)
-    {
-        rezultat*=baza;
-    }
-    return rezultat;
-
 #include <stdio.h>
 >>>>>>> 040148c3b544364cceb05125f9dfc23496f03563
 
@@ -57,6 +46,18 @@ double srednjaVr() {
     return zbir/n;
 
 }
+double stpenovanje()
+{
+    double baza=3.0;
+    int eksponent=2;
+    double rezultat=1.0;
+    for(int i=0;i<eksponent;i++)
+    {
+        rezultat*=baza;
+    }
+    return rezultat;
+}
+
 
 
 void najveci_broj(){
